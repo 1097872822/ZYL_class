@@ -1,0 +1,12 @@
+﻿  tftp.cpp
+d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(17): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(29): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  d:\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 参见“inet_addr”的声明
+d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(52): error C2664: “sockaddr_in getAddr(char *,int)”: 无法将参数 1 从“const char [13]”转换为“char *”
+  d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(52): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(65): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(126): error C2362: “goto f”跳过了“END”的初始化操作
+  d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(65): note: 参见“f”的声明
+  d:\vs2017工程\tftp协议\tftp协议\tftp.cpp(126): note: 参见“END”的声明
